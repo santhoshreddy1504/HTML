@@ -245,6 +245,27 @@ footer {
 footer p {
     font-size: 14px;
 }
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 28px;
+    }
+    .hero-content img {
+        width: 180px;
+    }
+    .project-card {
+        width: 90%;
+    }
  
 .apps{
     margin-top: 15px;
